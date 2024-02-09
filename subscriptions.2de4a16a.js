@@ -1,0 +1,2 @@
+!function(){var e={modal:document.querySelector("#subscription-modal"),subscribeBtn:document.querySelector("button[data-subscribe]")},o=0,n=!1,t=new BSN.Modal("#subscription-modal");function c(){3===o||n?console.log("Максимальное кол-во надоеданий или подписался"):setTimeout((function(){console.log("Открываем надоедалку"),t.show(),o+=1}),3e3)}c(),e.modal.addEventListener("hide.bs.modal",c),e.subscribeBtn.addEventListener("click",(function(){n=!0,t.hide()}))}();
+//# sourceMappingURL=subscriptions.2de4a16a.js.map

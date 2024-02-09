@@ -1,0 +1,2 @@
+const e={modal:document.querySelector("#subscription-modal"),subscribeBtn:document.querySelector("button[data-subscribe]")};let o=0,t=!1;const n=new BSN.Modal("#subscription-modal");function s(){3===o||t?console.log("Максимальное кол-во надоеданий или подписался"):setTimeout((()=>{console.log("Открываем надоедалку"),n.show(),o+=1}),3e3)}s(),e.modal.addEventListener("hide.bs.modal",s),e.subscribeBtn.addEventListener("click",(function(){t=!0,n.hide()}));
+//# sourceMappingURL=subscriptions.a9827e04.js.map
